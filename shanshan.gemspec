@@ -4,14 +4,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'shanshan/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "shanshan"
+  spec.name          = 'shanshan'
   spec.version       = Shanshan::VERSION
-  spec.authors       = ["mh61503891"]
-  spec.email         = ["msyk@hgsn.info"]
+  spec.authors       = ['Masayuki Higashino']
+  spec.email         = ['mh.on.web@gmail.com']
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{ShanShan}
+  spec.description   = %q{ShanShan}
+  spec.homepage      = "https://github.com/mh61503891/shanshan"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
