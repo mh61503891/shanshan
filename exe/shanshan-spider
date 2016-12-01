@@ -1,3 +1,6 @@
 #!/usr/bin/env ruby
 
 require 'shanshan'
+
+spider = ShanShan::Spider.new(uri:ARGV[0])
+spider.spin(depth:3)
