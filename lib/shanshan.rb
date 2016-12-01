@@ -1,5 +1,4 @@
-require "shanshan/version"
-
-module Shanshan
-  # Your code goes here...
-end
+require 'shanshan/version'
+require 'shanshan/link'
+require 'shanshan/node'
+require 'shanshan/spider'
